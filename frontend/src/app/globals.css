@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --background: #020617;
+  --foreground: #f8fafc;
+}
+
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617 60%);
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
